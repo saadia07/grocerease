@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    /* background-image: url("/images/banner-2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+    width: 100px; */
+}
+.home-background-image{
+    background-image: url("/images/banner-2.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
