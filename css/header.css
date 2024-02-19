@@ -14,7 +14,8 @@
 .logo{
     color:rgb(255, 94, 0);
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 45px;
+    font-family: serif ;
 
 }
 .logo i{
@@ -29,12 +30,12 @@
   .header-1 .search-box-container #search-box{
     height: 35px;
     width: 300px;
-    /* padding: 1rem ; */
     border-radius: 10px solid black;
     color: #3b3a3a;
     border: 1rem solid rgba(rgb(190, 132, 132), rgb(173, 205, 173), rgb(183, 183, 205), alpha);
     text-transform: none;
-    border-radius: 10px ;
+    border-radius: 10px 0 0 10px ;
+    border: none;
   }
   .header-1 .search-box-container label{
     height:35px ;
@@ -46,11 +47,10 @@
     text-align: center;
     cursor: pointer;
     background-color: rgb(255, 94, 0);
+    border-radius:  0 10px 10px 0 ;
 
   }
-  .header-1 .search-box-container label:hover{
-    background: var(--black);
-  }
+  
   .header-1{
     background:rgb(220, 255, 183);
     display: flex;
@@ -78,13 +78,14 @@
    
     padding-top: 20px;
     padding-left: 10px;
-    font-size: 2rem;
-    color: rgb(220, 255, 183)
+    font-size: 20px;
+    color: rgb(220, 255, 183);
    
   }
   .header-2 .navbar a:hover{
     background: var(--green);
-    color:rgb(255, 94, 0)
+    color:rgb(255, 94, 0);
+    text-decoration: none;
   }
   .navbar{
     display: inline-block;
@@ -100,8 +101,15 @@
   .icons{
     margin-left: 550px;
   }
-  
-   #menu-bar{
-    font-size: 25px;
-  
-  } 
+  #product-name{
+    background-color:  rgba(255, 94, 0,0.1);
+    border: none;
+    font-size: 20px ;
+    color: rgb(220, 255, 183);
+  }
+  #product-name:hover{
+    background: var(--green);
+    color:rgb(255, 94, 0);
+    text-decoration: none;
+  }
+   

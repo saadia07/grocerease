@@ -17,8 +17,8 @@
   <body>
     <Header>
       <div class="header-1">
-        <a href="#" class="logo">
-          <i class="fa-solid fa-basket-shopping"></i>grocerease</a>
+        <div href="#" class="logo">
+          <i class="fa-solid fa-basket-shopping"></i>grocerease</div>
 
         <form action="" class="search-box-container">
           <input type="search" id="search-box" placeholder="search here...">
@@ -29,16 +29,23 @@
 
       <div class="header-2">
 
-        <div class="manu-bar-and-nav-bar-elements-div-container">
-        <div id="menu-bar" class="fas fa-bars"></div>
+       
         <div class="navbar">
             <a href="#home">HOME</a>
             <a href="#categories">CATEGORIES</a>
-            <a href="#products">PRODUCTS</a>
+
+            <select name="products" id="product-name" placeholder="PRODUCTS">
+              <a href="#" ><option value="products"">PRODUCTS</option></a>
+              <a href="product1.html" ><option value="Fruit">FRUITS</option></a>
+              <a href="product2.html" ><option value="vegetables">VEGETABLES</option></a>
+              <a href="product3.html" ><option value="Beverages">BEVERAGES</option></a>
+
+            </select>
+
             <a href="#deals">DEALS</a>
             <a href="#contact us">CONTACT US</a>
         </div>
-        </div>
+        
         <div class="icons">
           <a href="#" class="fa-solid fa-basket-shopping"></a>
           <a href="#" class="fa-solid fa-heart"></a>
