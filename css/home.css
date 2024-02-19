@@ -11,14 +11,8 @@
     height: 50px;
     width: 100px; */
 }
-<<<<<<< HEAD
-.home .home-background-image
-{
-    background-image: url("/images/banner-2.jpg");
-=======
 .home-background-image{
     background-image: url("../images/banner-2.jpg");
->>>>>>> 55aea7ff04c033cf5d7bfc89f457c1ed6fbc96df
     background-size: cover;
     height: 600px;
     width: 100%;
