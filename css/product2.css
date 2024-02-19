@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    border-radius: 0;
+}
+.background-image-for-veg{
+    background-image: url("../images/vegetables-header-bg.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+
+}
+.first-image-text{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Gill Sans';
+    margin-left: 100px;
+    padding-top: 80px;
+}
