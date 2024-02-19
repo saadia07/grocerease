@@ -98,12 +98,16 @@
   .products-sub-product{
     display: none;
   }
-  .header-2 .navbar.products:hover .products-sub-product{
+  .header-2 .navbar .products:hover .products-sub-product{
     display:contents;
     position: absolute;
-    background-color:rgba(255, 94, 0,0.7); 
-    margin-top: 15px;
-    margin-left: -15px;
+    top: 150px;
+    left: 350px ;
+    background-color:rgba(255, 94, 0,0.6); 
+    height: 200px;
+    width: 300px;
+    /* margin-top: 15px;
+    margin-left: -15px; */
   }
 
   .header-2 .icons a{
