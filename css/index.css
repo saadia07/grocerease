@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    border-radius: 0;
+}
+.background-image-home{
+    background-image: url("../images/image-home.jpg");
+    background-size:cover ;
+    height: 600px;
+    width: 100%;
+    /* opacity: 0.7; */
+}
+.brand-name{
+    font-size: 150px;
+    font-family:"brodway";
+    position: absolute;
+    top: 180px;
+    left:200px ;
+    color:rgb(255, 94, 0);
+    text-shadow: 10px  10px  10px rgb(26,26, 51);
+}
+.salogan{
+    font-size: 50px;
+    position: absolute;
+    top: 350px;
+    left:350px ;
+    color: rgb(197,214, 214);
+    text-shadow: 10px  10px  10px rgb(26,26, 51);
+}
+.introductive-page-button{
+    height: 60px;
+    width: 200px;
+    background: rgba(255, 94, 0,0.7);
+    border-radius: 10px;
+    font-size: 22px;
+    position: absolute;
+    top: 460px;
+    left:600px ;
+    color: black;
+    box-shadow: 10px  10px  10px rgb(82, 42, 5);
+}
+.introductive-page-button:hover{
+    border-style: dashed;
+    border: 2px dashed rgb(255, 255, 255);
+    
+}
+.introductive-page-button:active{
+    background:rgb(220, 255, 183);
+  color: #0d0d0d;
+  font-size: 25px;
+  box-shadow: 10px  10px  10px rgb(49, 61, 35);
+}
