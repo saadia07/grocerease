@@ -47,6 +47,9 @@
     border: 2px solid grey;
    margin-left: 5px;
 }
+.shop-box:hover{
+    box-shadow: 0 .5rem 1rem rgb(140, 140, 201);
+}
 .box-1-product-1{
     height: 200px;
     width: 185px;

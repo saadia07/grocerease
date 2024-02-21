@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .container{
+    max-width: 1170;
+    background-color: #ffffff;
+    margin:auto;
+  }
+  .row{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    background-color: #ffffff;
+    padding: 30px 0px;
+  }
+  .footer-col{
+    width: 280px;
+    padding: 2px 0;
+  }
+  .footer-col h4{
+    font-size: 25px;
+    font-weight: 900px;
+    color: #118211;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: rgb(36, 104, 21);
+    height: 2px;
+    box-sizing: border-box;
+    width: 78px; 
+  }
+  .footer-col ul li a:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #23b640;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(65, 193, 56);
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: rgb(57, 119, 61);
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(58, 250, 74, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #72ec65;
+    transition: all 0.5 ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #060806;
+    background-color: #25a930;
+  }
+  
+  .footer-col .email{
+    height: 35px;
+    width: 220px;
+    background-color: #acfaac;
+    border-radius: 7px;
+    border: 1px solid green;
+    display: block;
+    /* padding-left: 20px; */
+    margin: 14px 0;
+    /* text-align: center; */
+    color: #0d0d0d;
+  }
+  .footer-col .button{
+    margin-left: 70px;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    color: rgb(10, 10, 10);
+    background-color: #bafeb3;
+    border: 1px solid green;
+  }
+
+  .footer-col .button:hover{
+    height: 35px;
+    width: 90px;
+    font-size: large;
+  }
+  hr{
+  
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 1px solid #eee;
+    box-shadow: 0 .5rem 1rem rgb(140, 140, 201);
+}
+  
