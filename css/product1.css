@@ -153,21 +153,22 @@
 
 
 .box-7-product-7{
-    height: 200px;
+    height: 130px;
     width: 185px;
     /* background-color: pink; */
     margin:5px ;
     margin-top: 0%;
     background-image: url("../images/box-7-product-7-fruits.jpg");
     background-size: cover;
+    margin-bottom: 50px;
 }
 .box-7-product-7:hover{
     background-image: url("../images/box-7-product-7-hover-fruits.jpg");
 }
 
 .box-8-product-8{
-    height: 200px;
     width: 185px;
+    height: 200px;
     /* background-color: pink; */
     margin:5px ;
     margin-top: 0%;
@@ -176,6 +177,8 @@
 }
 .box-8-product-8:hover{
     background-image: url("../images/box-8-product-8-hover-fruits.jpg");
+    height: 130px;
+    margin-bottom: 75px;
 }
 
 .box-9-product-9{
@@ -203,27 +206,30 @@
 
 
 .box-11-product-11{
-    height: 200px;
+    height: 130px;
     width: 185px;
     /* background-color: pink; */
     margin:5px ;
     margin-top: 0%;
     background-image: url("../images/box-11-product-11-hover-fruits.jpg");
     background-size: cover;
+    margin-bottom: 50px;
 }
 
 .box-12-product-12{
-    height: 140px;
+    height: 130px;
     width: 185px;
     /* background-color: pink; */
     margin:5px ;
     margin-top: 0%;
     background-image: url("../images/box-12-product-12-fruits.jpg");
     background-size: cover;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
+    
 }
 .box-12-product-12:hover{
     background-image: url("../images/box-12-product-12-hover-fruits.jpg");
-   height: 180px;
-   margin-bottom: 0;
+   height: 130px;
+  
 }
+
