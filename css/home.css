@@ -84,11 +84,83 @@
     clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%, 7% 50%,0% 0%);
   
 }
-.fruits-image{
+/* deal section */
+.deal-pic-1{
+    background-image: url("../images/deal-pic-1.jpg");
+    height: 300px;
+    width: 650px;
+    background-size: cover;
+}
+.deal-pic-2{
+    background-image: url("../images/deal-pic-2.jpg");
+    height: 300px;
+    width: 650px;
+    background-size: cover;
+}
+.bannner-container{
+    margin-top: 50px;
+    margin-left: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.bannner-container .banner{
+    /* flex: 1 1 40px; */
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.bannner-container .banner .deal-content{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+.bannner-container .banner .deal-content h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(95, 180, 5);
+}
+.bannner-container .banner .deal-content p{
+    font-size:20px ;
+}
+.bannner-container .banner .deal-content .deal-button{
+   width: 120px;
+   height: 40px;
+    background: rgba(255, 94, 0,0.7);
+    color: black;
+    border-radius: 8px;
+    font-size: 17px;
+    box-shadow: 10px  10px  10px rgb(82, 42, 5);
+    
+}
+.bannner-container .banner .deal-content .deal-button:hover{
+    border-style: dashed;
+    border: 2px dashed rgb(255, 255, 255);
+}
+.bannner-container .banner .deal-content .deal-button:active{
+    background:rgb(220, 255, 183);
+    color: #0d0d0d;
+    font-size: 19px;
+    box-shadow: 10px  10px  10px rgb(49, 61, 35);
+}
+/* categories */
+/* .heading{
+    text-align: center;
+    padding:20px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(255, 94, 0);
+}
+.heading span{
+    background-color: rgba(255, 94, 0,0.7);
+    color: rgb(220, 255, 183);
+    padding: 20px;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%, 7% 50%,0% 0%); */
+/* .fruits-image{
     background-image: url("../images/fruits.jpg");
     height: 250px;
     width: 500px;
     background-size: cover;
     position: absolute;
     left: 100px;
-}
+} */
