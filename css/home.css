@@ -71,12 +71,22 @@
     height: 300px;
     width: 650px;
     background-size: cover;
+    transition: all 1s;
+    overflow: hidden;
+}
+.deal-pic-1:hover{
+    transform: scale(1.1);
 }
 .deal-pic-2{
     background-image: url("../images/deal-pic-2.jpg");
     height: 300px;
     width: 650px;
     background-size: cover;
+    transition: all 1s;
+    overflow: hidden;
+}
+.deal-pic-2:hover{
+    transform: scale(1.1);
 }
 .bannner-container{
     margin-top: 50px;
@@ -145,12 +155,34 @@
     background-size: cover;
     /* position: absolute;
     left: 100px; */
+    transition: all 1s;
+    overflow: hidden;
+}
+.fruits-image:hover{
+    transform: scale(1.1);
 }
 .vegetables-image{
     background-image: url("../images/vegetables.jpg");
     height:300px ;
     width: 350px;
     background-size: cover;
+    transition: all 1s;
+    overflow: hidden;
+}
+.vegetables-image:hover{
+    transform: scale(1.1);
+
+}
+.beverages-image{
+  background-image: url("../images/beverages.jpg");
+  height:300px ;
+  width: 350px;
+  background-size: cover;
+  transition: all 1s;
+  overflow: hidden;
+}
+.beverages-image:hover{
+    transform: scale(1.1);
 }
 .box-container .box{
     margin-left:105px;
@@ -191,3 +223,378 @@
     box-shadow: 10px  10px  10px rgb(49, 61, 35);
 }
 /* products section */
+.products .shop-bar{
+    margin-left:105px ;
+}
+.shop-bar{
+    display: flex;
+    padding: 20px 50px;
+    padding-top: 0;
+   
+}
+.shop-box{
+    height: 300px;
+    width: 200px;
+    /* background-color: aquamarine; */
+    border: 2px solid grey;
+   margin-left: 5px;
+}
+.shop-box:hover{
+    box-shadow: 0 .5rem 1rem rgb(140, 140, 201);
+}
+.box-1-product-1{
+    height: 200px;
+    width: 190px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/orange-two.png");
+    background-size: cover;
+}
+
+.box-1-product-1:hover{
+    background-image: url("../images/orange.jpg");
+}
+.for-icon{
+    font-size: 25px;
+    color:rgb(51, 40, 40);
+    padding-left: 150px;
+    padding-top: 20px;
+    
+}
+.for-icon:hover{
+    color: rgb(255, 94, 0);
+}
+.box-1-product-1-content{
+    height: 100px; 
+    width: 200px;
+    /* background-color: blue; */
+    padding-left: 5px;
+}
+.box-1-product-1-content a{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+.box-1-product-1-content i{
+    font-size: large;
+    padding-top: 5px;
+}
+.price{
+    font-size: 30px;
+    color: rgb(179, 20, 20);
+    font-weight: 700;
+}
+.price-cutted{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+/* boxes-img-css */
+.box-2-product-2{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/onion.jpg");
+    background-size: cover;
+}
+.box-2-product-2:hover{
+    background-image: url("../images/onion-2.jpg");
+}
+
+.box-3-product-3{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/milk.jpg");
+    background-size: cover;
+}
+.box-3-product-3:hover{
+    background-image: url("../images/milk-2.jpg");
+}
+.box-4-product-4{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/gabbage.png");
+    background-size: cover;
+}
+.box-4-product-4:hover{
+    background-image: url("../images/gabbage-2.jpg");
+}
+
+.box-5-product-5{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/apple\ juice.jpg");
+    background-size: cover;
+}
+.box-5-product-5:hover{
+    background-image: url("../images/applejuice-2.jpg");
+}
+.box-6-product-6{
+    height: 180px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/kiwi.jpg");
+    background-size: cover;
+}
+.box-6-product-6:hover{
+    background-image: url("../images/kiwi-2.jpg");
+   
+}
+
+
+.products .shop-bar-2{
+    margin-left:105px ;
+}
+.shop-bar-2{
+    display: flex;
+    padding: 20px 50px;
+    padding-top: 0;
+   
+}
+.shop-box{
+    height: 300px;
+    width: 200px;
+    /* background-color: aquamarine; */
+    border: 2px solid grey;
+   margin-left: 5px;
+}
+.shop-box:hover{
+    box-shadow: 0 .5rem 1rem rgb(140, 140, 201);
+}
+.box-1-bar-2-product-1{
+    height: 200px;
+    width: 190px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/banana.png");
+    background-size: cover;
+}
+
+.box-1-bar-2-product-1:hover{
+    background-image: url("../images/banana-2.png");
+}
+.for-icon{
+    font-size: 25px;
+    color:rgb(51, 40, 40);
+    padding-left: 150px;
+    padding-top: 20px;
+    
+}
+.for-icon:hover{
+    color: rgb(255, 94, 0);
+}
+.box-1-bar-2-product-1-content{
+    height: 100px; 
+    width: 200px;
+    /* background-color: blue; */
+    padding-left: 5px;
+}
+.box-1-bar-2-product-1-content a{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+.box-1-bar-2-product-1-content i{
+    font-size: large;
+    padding-top: 5px;
+}
+.price{
+    font-size: 30px;
+    color: rgb(179, 20, 20);
+    font-weight: 700;
+}
+.price-cutted{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+/* boxes-img-css */
+.box-2-bar-2-product-2{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/Tomato.png");
+    background-size: cover;
+}
+.box-2-bar-2-product-2:hover{
+    background-image: url("../images/tomato-2.png");
+}
+
+.box-3-bar-2-product-3{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/drink-2.jpg");
+    background-size: cover;
+}
+.box-3-bar-2-product-3:hover{
+    background-image: url("../images/drink.webp");
+}
+.box-4-bar-2-product-4{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/grapes.webp");
+    background-size: cover;
+}
+.box-4-bar-2-product-4:hover{
+    background-image: url("../images/grapes-2.webp");
+}
+
+.box-5-bar-2-product-5{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/carrot-2.png");
+    background-size: cover;
+}
+.box-5-bar-2-product-5:hover{
+    background-image: url("../images/carrot.png");
+}
+.box-6-bar-2-product-6{
+    height: 205px;
+    width: 180px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/orangejuice.png");
+    background-size: cover;
+}
+.box-6-bar-2-product-6:hover{
+    background-image: url("../images/orangejuice-2.jpg");
+    height: 205px;
+    width: 100px;
+}
+/* contact */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .contact{
+    position: relative;
+    min-height: 100px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .contact  .content{
+      max-width: 800px;
+      text-align: center;
+    }
+    .contact .content h2{
+      font-size: 60px;
+      font-weight: 500;
+      color: #126012;
+    }
+    .contact .content p{
+      font-size: 39px;
+      font-weight: 300;
+      color: #117f11;
+    }
+    .container{
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      font-size: 25px;
+    }
+    .container .contactinfo{
+      width: 300%;
+      display: flex;
+      flex-direction: column;
+    }
+    .container .contactinfo .box{
+      position: relative;
+      padding: 20px 0;
+      display: flex;
+    }
+    .container .contactinfo .box  .text{
+      display: flex;
+      margin-left: 20px;
+      font-size: 20px;
+      flex-direction: column;
+      color: #b7eeb7:
+      font-weight: 300;
+    }
+    .container .contactinfo .box  .text h3{
+      font-weight: 500;
+      color: #065121;
+    }
+    .contact form{
+      width: 400px;
+      padding: 40px;
+      background: #e7e4e4;
+    }
+    .contact form h2{
+      font-size: 30px;
+      color: #117f11;
+      font-weight: 500;
+    }
+    .contact form .inputbox{
+       position: relative;
+       width: 100%;
+       margin-top: 10px;
+       color: #117f11;
+    }
+    .contact form .inputbox input, .contact form .inputbox textarea{
+      width: 300px;
+      padding: 5px 0;
+      font-size:16px;
+      margin: 10px; 
+      border: none;
+      border-bottom: 2px solid #9f9d9d;
+      outline: none;
+      resize: none;
+    }
+    .contact form .inputbox span{
+      position: absolute;
+      left: 0;
+      padding: 5px 0;
+      font-size: 16px;
+      margin: 10px 0;
+      pointer-events: none;
+      transition: 0.5%;
+      color: #117f11;
+    }
+    .contact form .inputbox input:focus~span,
+    .contact form .inputbox input:valid~span,
+    .contact form .inputbox textarea:focus~span,
+    .contact form .inputbox textarea:valid~span{
+      color: #97dd97;
+      font-size: 15px;
+      transform: translate(-20px);
+    }
+    .contact form .inputbox input [type="submit"]{
+      width: 100px;
+      background: #065121;
+      color: #117f11;
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 18px;
+    }
