@@ -505,11 +505,11 @@
       max-width: 800px;
       text-align: center;
     }
-    .contact .content h2{
+    /* .contact .content h2{
       font-size: 60px;
       font-weight: 500;
       color: #126012;
-    }
+    } */
     .contact .content p{
       font-size: 39px;
       font-weight: 300;
@@ -538,7 +538,7 @@
       margin-left: 20px;
       font-size: 20px;
       flex-direction: column;
-      color: #b7eeb7:
+      color: #b7eeb7;
       font-weight: 300;
     }
     .container .contactinfo .box  .text h3{
