@@ -6,14 +6,15 @@
 .header-1{
     background-color: rgb(24, 226, 233);
     align-items: center;
-   /* padding:  0.2%;
+   padding:  0.2%;
    padding-left: 3% ;
    padding-right: 3% ;
-   width: 100%; */
+   width: 100%;
    background:rgb(220, 255, 183);
-   /* display: flex; */
+   display: flex;
    align-items: center; 
-  
+   /* justify-content: space-between; */
+   /* padding: 2rem 9%; */
    box-shadow: 0 .5rem 1rem rgb(140, 140, 201);
    position: relative;
 
@@ -26,11 +27,13 @@
 
 }
 .logo i{
+    /* padding-right: .5rem; */
     color:rgb(255, 94, 0);
 }
-
 .header-1 .search-box-container{
     display:flex;
+    /* height: 20%; */
+    /* width: 20%; */
     margin-left:57%;
     margin-right: 0%;
   } 
@@ -38,6 +41,7 @@
  
   .header-1 .search-box-container #search-box{
     height: 35px;
+    /* width: 200%; */
     border-radius: 10px solid black;
     color: #3b3a3a;
     border: 1rem solid rgba(rgb(190, 132, 132), rgb(173, 205, 173), rgb(183, 183, 205), alpha);
@@ -70,16 +74,19 @@
     background: rgba(255, 94, 0,0.7);
     display: flex;
     align-items: center;
+    /* height: 60px; */
     width: 100%;
     box-shadow: 0 .5rem 1rem rgb(0, 0, 0, 1);
     position: relative;
     align-items: center;
     padding-left: 3%;
+    /* padding-right: 30px; */
   }
   
   .navbar a{
     padding-left: 5%;
     padding: 2%;
+    text-decoration: none;
     font-size: 200%;
     color: rgb(220, 255, 183);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
@@ -88,7 +95,7 @@
   .header-2 .navbar a:hover{
     background: var(--green);
     color:rgb(134, 56, 10);
-    text-decoration: none;
+    
   }
   
   .navbar{
@@ -123,7 +130,74 @@
     margin-left: 25%;
     display: flex;
   }
-   
+  /* sidebar */
+  .quantity{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    padding: 1px;
+  }
+  .icons .fa-basket-shopping{
+    /* padding: 2px; */
+  }
+  .list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 50px;
+  }
+  .card{
+    position: fixed;
+    top: 0;
+    left: calc(100% - 500px);
+    width: 500px;
+    background-color: #3b3a3a;
+    height: 100vh;
+    transition: 0.5s;
+
+  }
+  .card h1{
+    color: aqua;
+    font-weight: 100;
+    margin: 0;
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  .card .checkout{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+  }
+  .card .checkout div{
+    background-color: aqua;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+  .card .checkout div:nth-child(2){
+    background-color: #3b3a3a;
+    color: white;
+  }
+  .active .card{
+    left:calc(100% - 500px);
+  }
+  .active .container{
+    transform: translateX(-200px);
+  }
+  /* sidebar */
   .login-hover-content{
     display: none;
   }
@@ -136,6 +210,7 @@
   }
   p{
     text-align: center;
+    /* font-weight: bold; */
   }
 
 fieldset{
@@ -172,6 +247,7 @@ form .input-text{
 }
 
 .login-in-button{
+    /* height: 23px; */
     height: 4%;
     width: 50%;
     border-radius: 6px;
@@ -186,6 +262,9 @@ form .input-text{
 
 
 
+/* p{
+    font-size: 10px;
+} */
 .edit{
     font-weight: 100px; 
 }
