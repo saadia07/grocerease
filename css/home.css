@@ -71,7 +71,7 @@
 .deal-pic-1{
     background-image: url("../images/deal-pic-1.jpg");
     height: 300px;
-    width: 550px;
+    width: 580px;
     background-size: cover;
     transition: all 1s;
     overflow: hidden;
@@ -82,7 +82,7 @@
 .deal-pic-2{
     background-image: url("../images/deal-pic-2.jpg");
     height: 300px;
-    width: 550px;
+    width: 580px;
     background-size: cover;
     transition: all 1s;
     overflow: hidden;
@@ -93,7 +93,7 @@
 }
 .bannner-container{
     margin-top: 50px;
-    margin-left: 105px;
+    margin-left: 150px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -197,7 +197,8 @@
 .CATEGORIES .box-container{
     display: flex;
     flex-wrap: wrap;
-    margin: 5%;
+    margin-left: 100px;
+    margin-left: 100px;
 }
 .CATEGORIES .box-container h3{
     font-size: 35px;
@@ -594,7 +595,7 @@
     }
     .contact form .inputbox input, .contact form .inputbox textarea{
       width: 300px;
-      padding: 5px 0;
+      padding: 5px;
       font-size:16px;
       /* margin: 10px;  */
       border: none;
