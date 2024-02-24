@@ -40,8 +40,8 @@ ul{
   color: #72ec65;
   transition: all 0.5 ease;
   position: fixed;
-  top: 600px;
-  left: 1420px;
+  top: 500px;
+  left: 1230px;
   border: 2px solid #118211;
 }
 .back-to-top-button a{

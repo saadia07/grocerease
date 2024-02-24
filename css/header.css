@@ -6,15 +6,14 @@
 .header-1{
     background-color: rgb(24, 226, 233);
     align-items: center;
-   padding:  0.2%;
+   /* padding:  0.2%;
    padding-left: 3% ;
    padding-right: 3% ;
-   width: 100%;
+   width: 100%; */
    background:rgb(220, 255, 183);
-   display: flex;
+   /* display: flex; */
    align-items: center; 
-   /* justify-content: space-between; */
-   /* padding: 2rem 9%; */
+  
    box-shadow: 0 .5rem 1rem rgb(140, 140, 201);
    position: relative;
 
@@ -27,13 +26,11 @@
 
 }
 .logo i{
-    /* padding-right: .5rem; */
     color:rgb(255, 94, 0);
 }
+/* }
 .header-1 .search-box-container{
     display:flex;
-    /* height: 20%; */
-    /* width: 20%; */
     margin-left:57%;
     margin-right: 0%;
   } 
@@ -41,7 +38,6 @@
  
   .header-1 .search-box-container #search-box{
     height: 35px;
-    /* width: 200%; */
     border-radius: 10px solid black;
     color: #3b3a3a;
     border: 1rem solid rgba(rgb(190, 132, 132), rgb(173, 205, 173), rgb(183, 183, 205), alpha);
@@ -74,13 +70,11 @@
     background: rgba(255, 94, 0,0.7);
     display: flex;
     align-items: center;
-    /* height: 60px; */
     width: 100%;
     box-shadow: 0 .5rem 1rem rgb(0, 0, 0, 1);
     position: relative;
     align-items: center;
     padding-left: 3%;
-    /* padding-right: 30px; */
   }
   
   .navbar a{
@@ -142,7 +136,6 @@
   }
   p{
     text-align: center;
-    /* font-weight: bold; */
   }
 
 fieldset{
@@ -179,7 +172,6 @@ form .input-text{
 }
 
 .login-in-button{
-    /* height: 23px; */
     height: 4%;
     width: 50%;
     border-radius: 6px;
@@ -194,9 +186,6 @@ form .input-text{
 
 
 
-/* p{
-    font-size: 10px;
-} */
 .edit{
     font-weight: 100px; 
 }
@@ -213,4 +202,4 @@ form .input-text{
     color: white;
     border: none;
     background:rgb(220, 255, 183);
-}
+} */
