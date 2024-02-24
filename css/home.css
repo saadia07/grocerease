@@ -11,12 +11,20 @@
     background-image: url("../images/banner-2.jpg");
     background-size: cover;
     opacity: 0.7;
+<<<<<<< HEAD
     height: 450px;
+=======
+    height: 420px;
+>>>>>>> wania
     width: 100%;
     box-shadow: 10px  10px  10px rgb(82, 42, 5);
     /* background-color: aquamarine; */
 }
+<<<<<<< HEAD
 .button{
+=======
+.button-herosection{
+>>>>>>> wania
     height: 60px;
     width: 200px;
     background: rgba(255, 94, 0,0.7);
@@ -24,6 +32,7 @@
     border-radius: 10px;
     font-size: 22px;
     position: absolute;
+<<<<<<< HEAD
     top: 460px;
     left:600px ;
     box-shadow: 10px  10px  10px rgb(82, 42, 5);
@@ -33,6 +42,17 @@
     border: 2px dashed rgb(255, 255, 255);
 }
 .button:active{
+=======
+    top: 400px;
+    left:600px ;
+    box-shadow: 10px  10px  10px rgb(82, 42, 5);
+}
+.button-herosection:hover{
+    border-style: dashed;
+    border: 2px dashed rgb(255, 255, 255);
+}
+.button-herosection:active{
+>>>>>>> wania
     background:rgb(220, 255, 183);
   color: #0d0d0d;
   font-size: 25px;
@@ -47,7 +67,10 @@
     color:rgb(255, 94, 0);
     /* text-shadow: 10px  10px  10px rgb(26,26, 51); */
     font-family: serif ;
+<<<<<<< HEAD
     text-shadow: 10px  10px  5px rgb(202, 168, 135);
+=======
+>>>>>>> wania
 }
 .content h3 span{
     font-size: 80px;
@@ -61,9 +84,15 @@
     font-size: 35px;
     font-weight: bold;
     position: absolute;
+<<<<<<< HEAD
     top: 350px;
     left: 120px;
     color: rgb(133, 214, 47);
+=======
+    top: 300px;
+    left: 120px;
+    color:green;
+>>>>>>> wania
     text-shadow: 10px  10px  5px rgb(202, 168, 135);
 
 }
@@ -71,7 +100,11 @@
 .deal-pic-1{
     background-image: url("../images/deal-pic-1.jpg");
     height: 300px;
+<<<<<<< HEAD
     width: 550px;
+=======
+    width: 580px;
+>>>>>>> wania
     background-size: cover;
     transition: all 1s;
     overflow: hidden;
@@ -82,7 +115,11 @@
 .deal-pic-2{
     background-image: url("../images/deal-pic-2.jpg");
     height: 300px;
+<<<<<<< HEAD
     width: 550px;
+=======
+    width: 580px;
+>>>>>>> wania
     background-size: cover;
     transition: all 1s;
     overflow: hidden;
@@ -93,7 +130,11 @@
 }
 .bannner-container{
     margin-top: 50px;
+<<<<<<< HEAD
     margin-left: 105px;
+=======
+    margin-left: 150px;
+>>>>>>> wania
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -197,7 +238,12 @@
 .CATEGORIES .box-container{
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     margin: 5%;
+=======
+    margin-left: 100px;
+    margin-left: 100px;
+>>>>>>> wania
 }
 .CATEGORIES .box-container h3{
     font-size: 35px;
@@ -594,7 +640,11 @@
     }
     .contact form .inputbox input, .contact form .inputbox textarea{
       width: 300px;
+<<<<<<< HEAD
       padding: 5px 0;
+=======
+      padding: 5px;
+>>>>>>> wania
       font-size:16px;
       /* margin: 10px;  */
       border: none;
@@ -628,4 +678,10 @@
       cursor: pointer;
       padding: 10px;
       font-size: 18px;
+<<<<<<< HEAD
+=======
+    }
+    .contactinfo .box p a{
+        display: flex;
+>>>>>>> wania
     }

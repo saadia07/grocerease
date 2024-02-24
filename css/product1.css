@@ -1,0 +1,240 @@
+*{
+    margin: 0%;
+    border-radius: 0%;
+}
+.background-image-vegetables{
+    background-image: url("../images/hero-image-fruits.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    box-shadow: 0 .5rem 1rem rgb(140, 140, 201);
+
+}
+.first-image-text{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Gill Sans';
+    margin-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    color: green;
+    text-shadow: 10px  10px  5px rgb(202, 168, 135);
+}
+.first-image-text span{
+    color:rgb(255, 94, 0);
+    text-shadow: 10px  10px  5px rgb(202, 168, 135);
+}
+
+.shop-bar{
+    display: flex;
+    padding: 20px 50px;
+    padding-top: 0;
+   
+}
+.sale-heading p{
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-left: 60px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.shop-box{
+    height: 300px;
+    width: 200px;
+    /* background-color: aquamarine; */
+    border: 2px solid grey;
+   margin-left: 5px;
+}
+.shop-box:hover{
+    box-shadow: 0 .5rem 1rem rgb(140, 140, 201);
+}
+.box-1-product-1{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/box-1-product-1-fruits.jpg");
+    background-size: cover;
+}
+
+.box-1-product-1:hover{
+    background-image: url("../images/box-1-product-1-hover-fruits.jpg");
+}
+.for-icon{
+    font-size: 25px;
+    color:rgb(51, 40, 40);
+    padding-left: 150px;
+    padding-top: 20px;
+    
+}
+.for-icon:hover{
+    color: rgb(255, 94, 0);
+}
+.box-1-product-1-content{
+    height: 100px; 
+    width: 200px;
+    /* background-color: blue; */
+    padding-left: 5px;
+}
+.box-1-product-1-content a{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+}
+.box-1-product-1-content i{
+    font-size: large;
+    padding-top: 5px;
+}
+.price{
+    font-size: 30px;
+    color: rgb(179, 20, 20);
+    font-weight: 700;
+}
+.price-cutted{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+/* boxes-img-css */
+.box-2-product-2{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/box-2-product-2-fruits.jpg");
+    background-size: cover;
+}
+.box-2-product-2:hover{
+    background-image: url("../images/box-2-product-2-hover-fruits.jpg");
+}
+
+.box-3-product-3{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/box-3-product-3-fruits.jpg");
+    background-size: cover;
+}
+
+.box-4-product-4{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/box-4-product-4-fruits.jpg");
+    background-size: cover;
+}
+
+
+.box-5-product-5{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/box-5-product-5-fruits.jpg");
+    background-size: cover;
+}
+
+.box-6-product-6{
+    height: 180px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/box-6-product-6-fruits.jpg");
+    background-size: cover;
+}
+.box-6-product-6:hover{
+    background-image: url("../images/box-6-product-6-hover-fruits.jpg");
+   
+}
+
+
+.box-7-product-7{
+    height: 130px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/box-7-product-7-fruits.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.box-7-product-7:hover{
+    background-image: url("../images/box-7-product-7-hover-fruits.jpg");
+}
+
+.box-8-product-8{
+    width: 185px;
+    height: 200px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/box-8-product-8-fruits.jpg");
+    background-size: cover;
+}
+.box-8-product-8:hover{
+    background-image: url("../images/box-8-product-8-hover-fruits.jpg");
+    height: 130px;
+    margin-bottom: 75px;
+}
+
+.box-9-product-9{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/box-9-product-9-fruits.jpg");
+    background-size: cover;
+}
+.box-9-product-9:hover{
+    background-image: url("../images/box-9-product-9-hover-fruits.jpg");
+}
+
+.box-10-product-10{
+    height: 200px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/box-10-product-10-fruits.jpg");
+    background-size: cover;
+}
+
+
+.box-11-product-11{
+    height: 130px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/box-11-product-11-hover-fruits.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.box-12-product-12{
+    height: 130px;
+    width: 185px;
+    /* background-color: pink; */
+    margin:5px ;
+    margin-top: 0%;
+    background-image: url("../images/box-12-product-12-fruits.jpg");
+    background-size: cover;
+    margin-bottom: 70px;
+    
+}
+.box-12-product-12:hover{
+    background-image: url("../images/box-12-product-12-hover-fruits.jpg");
+   height: 130px;
+  
+}
+
