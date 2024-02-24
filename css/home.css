@@ -11,7 +11,7 @@
     background-image: url("../images/banner-2.jpg");
     background-size: cover;
     opacity: 0.7;
-    height: 450px;
+    height: 420px;
     width: 100%;
     box-shadow: 10px  10px  10px rgb(82, 42, 5);
     /* background-color: aquamarine; */
@@ -24,7 +24,7 @@
     border-radius: 10px;
     font-size: 22px;
     position: absolute;
-    top: 460px;
+    top: 400px;
     left:600px ;
     box-shadow: 10px  10px  10px rgb(82, 42, 5);
 }
@@ -61,7 +61,7 @@
     font-size: 35px;
     font-weight: bold;
     position: absolute;
-    top: 350px;
+    top: 300px;
     left: 120px;
     color: rgb(133, 214, 47);
     text-shadow: 10px  10px  5px rgb(202, 168, 135);
