@@ -152,3 +152,16 @@ hr{
   border-top: 1px solid #eee;
   box-shadow: 0 .5rem 1rem rgb(140, 140, 201);
 }
+@media (max-width:767){
+  .footer-col{
+    width:50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width:547){
+  .footer-col{
+    width:100%;
+    padding: 0 15px;
+  }
+}

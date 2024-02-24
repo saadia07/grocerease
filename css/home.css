@@ -632,3 +632,133 @@
     .contactinfo .box p a{
         display: flex;
     }
+    /* media queries */
+    @media only screen and (max-width:1330px){
+        .home .content h3{
+            font-size: 60px;
+            position: absolute;
+            top: 180px;
+            left:120px ;
+        }
+        .home .content h3 span{
+            font-size: 60px;
+        }
+        .bannner-container{
+            margin-left: 260px;
+        }
+        .deal-pic-1{
+            height: 300px;
+            width: 700px;
+        }
+        .deal-pic-2{
+            height: 300px;
+            width: 700px;
+        }
+        .CATEGORIES .box-container{
+            margin-left: 50px;
+        }
+    }
+    @media only screen and (max-width:1200px) and (min-width:1290px) {
+        .home .content h3{
+            font-size: 40px;
+            position: absolute;
+            top: 310px;
+            left:120px ;
+        }
+        .home .content p{
+            font-size: 35px;
+            position: absolute;
+            top: 390px;
+            left: 120px;
+        }
+    }
+    @media only screen and (max-width:1200px) and (min-width:992px){
+        .home .content h3{
+            font-size: 40px;
+            position: absolute;
+            top: 310px;
+            left:120px ;
+        }
+        .home .content h3 span{
+            font-size: 40px;
+        }
+        .home .content p{
+            font-size: 35px;
+            position: absolute;
+            top: 390px;
+            left: 120px;
+        }
+        .home .home-background-image{
+            background-image: url("../images/banner-2.jpg");
+            width: 100%;
+            opacity: 0.7;
+            height: 420px;
+            box-shadow: 10px  10px  10px rgb(82, 42, 5);
+        }
+        .bannner-container{
+            margin-left: 260px;
+        }
+        .deal-pic-1{
+            height: 300px;
+            width: 700px;
+        }
+        .deal-pic-2{
+            height: 300px;
+            width: 700px;
+        }
+        .CATEGORIES .box-container{
+            margin-left: 260px;
+            flex-direction: column;
+        }
+        .products .shop-bar{
+            margin-left: 4%;
+        }
+        .products .shop-bar-2{
+            margin-left: 4%;
+        }
+     }
+     @media only screen and (min-width: 768px) and (max-width:992px){
+        .home .content h3{
+            font-size: 40px;
+            position: absolute;
+            top: 300px;
+            left:120px ;
+        }
+        body{
+            background-color: #065121;
+        }
+        .home .content h3 span{
+            font-size: 40px;
+        }
+        .home .content p{
+            font-size: 30px;
+            position: absolute;
+            top: 370px;
+            left: 120px;
+        }
+        .home-background-image{
+            width: 100%;
+        }
+        .CATEGORIES .box-container{
+            margin-left: 360px;
+        }
+        .products .shop-bar{
+            margin-left: 0%;
+        }
+        .products .shop-bar-2{
+            margin-left: 0%;
+        }
+     }
+     @media (max-width:990px){
+        .contact{padding: 50px;}
+      }
+      .container{
+          flex-direction: column;
+      }
+      .container .contactinfo{
+        margin-bottom: 40px;
+      }
+      .container .contactinfo,
+      .contact form{
+        width:100% ;
+      }
