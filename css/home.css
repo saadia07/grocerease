@@ -594,11 +594,7 @@
     }
     .contact form .inputbox input, .contact form .inputbox textarea{
       width: 300px;
-<<<<<<< HEAD
       padding: 5px 0;
-=======
-      padding: 5px;
->>>>>>> wania
       font-size:16px;
       /* margin: 10px;  */
       border: none;
@@ -632,10 +628,4 @@
       cursor: pointer;
       padding: 10px;
       font-size: 18px;
-<<<<<<< HEAD
-=======
-    }
-    .contactinfo .box p a{
-        display: flex;
->>>>>>> wania
     }
