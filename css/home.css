@@ -47,7 +47,6 @@
     color:rgb(255, 94, 0);
     /* text-shadow: 10px  10px  10px rgb(26,26, 51); */
     font-family: serif ;
-    text-shadow: 10px  10px  5px rgb(202, 168, 135);
 }
 .content h3 span{
     font-size: 80px;
@@ -63,7 +62,7 @@
     position: absolute;
     top: 300px;
     left: 120px;
-    color: rgb(133, 214, 47);
+    color:green;
     text-shadow: 10px  10px  5px rgb(202, 168, 135);
 
 }
