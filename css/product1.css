@@ -31,6 +31,7 @@
     display: flex;
     padding: 20px 50px;
     padding-top: 0;
+    margin-left: 100px ;
    
 }
 .sale-heading p{
@@ -92,6 +93,13 @@
     font-size: 30px;
     color: rgb(179, 20, 20);
     font-weight: 700;
+}
+.navbar-login-div:hover .login-hover-content{
+    display:flex;
+    position: fixed;
+    height: 20%;
+    width: 15%;
+    z-index: 2;
 }
 .price-cutted{
     font-size: 20px;

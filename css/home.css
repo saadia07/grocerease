@@ -361,7 +361,7 @@
 .box-6-product-6:hover{
     background-image: url("../images/kiwi-2.jpg");
    
-} */
+} 
 
 
 .products .shop-bar-2{
@@ -737,8 +737,9 @@
             left: 120px;
         }
         .home-background-image{
-            width: 100%;
-        }
+
+    width: 100%;    
+background-size: cover;   }
         .CATEGORIES .box-container{
             margin-left: 360px;
         }

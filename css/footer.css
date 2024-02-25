@@ -20,15 +20,7 @@ ul{
   padding: 30px 0px;
 }
 .back-to-top-button{
-  /* width: 10%;
-  height: auto;
-  background: rgba(255, 94, 0,0.7);
-  border: none;
-  padding: 1%;
-  position: fixed;
-  top: 600px;
-  left: 1400px;
-  border-radius: 50%; */
+ 
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -37,7 +29,8 @@ ul{
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #72ec65;
+  color: #0e3809;
+  font-size: large;
   transition: all 0.5 ease;
   position: fixed;
   top: 600px;

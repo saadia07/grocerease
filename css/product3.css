@@ -29,9 +29,10 @@
 
 .shop-bar{
     display: flex;
-    padding: 30px 50px;
-    /* padding-top: 0; */
-   
+    padding: 20px 50px;
+    padding-top: 0;
+    margin-left: 100px ;
+   margin-top: 50px;
 }
 
 .shop-box{
