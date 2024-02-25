@@ -749,16 +749,17 @@
             margin-left: 0%;
         }
      }
-     @media (max-width:990px){
+     @media (max-width:991px){
         .contact{padding: 50px;}
       }
       .container{
-          flex-direction: column;
+          /* flex-direction: column; */
       }
       .container .contactinfo{
         margin-bottom: 40px;
       }
       .container .contactinfo,
       .contact form{
-        width:100% ;
+        /* width:100% ; */
+        margin-left: 10px;
       }
